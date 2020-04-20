@@ -1,0 +1,21 @@
+#display{
+    font-weight: bold;
+}
+
+#jumbo{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#jumbo > img {
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron{
+    min-height: 100vh;
+}
